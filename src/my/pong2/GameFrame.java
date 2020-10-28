@@ -24,12 +24,12 @@ public class GameFrame extends JFrame{
     GameFrame() {
         panel = new GamePanel();
         this.add(panel);
-        this.setTitle("Pong2");
+        this.setTitle("GeoPong!");
         this.setResizable(false); //so user cannot resize the frame
         this.setBackground(Color.black);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.pack(); //game frame class fit around game panel - we don't need to set the size of JFrame
         this.setVisible(true);
-        this.setLocationRelativeTo(null); //window in middle  
+        this.setLocationRelativeTo(null); //window in middle
     }   
 }

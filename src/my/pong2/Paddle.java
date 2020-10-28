@@ -16,7 +16,7 @@ import javax.swing.*;
 
 public class Paddle extends Rectangle {
     
-    int id; //player1 will be asigned to id = 1 later and player2 to id = 2
+    int id; //player1 will be assigned to id = 1 later and player2 to id = 2
     int ySpeed; //the speed of the paddle up and down
     int xSpeed;
     int speed = 10;
@@ -121,5 +121,4 @@ public class Paddle extends Rectangle {
             g.setColor(Color.magenta);
         g.fillRect(x, y, width, height);
     }
-    
 }

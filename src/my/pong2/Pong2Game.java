@@ -17,11 +17,12 @@ import javax.swing.*;
 
 public class Pong2Game {
 
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        GameFrame frame = new GameFrame();
+        JFrame window = new menu("GeoPong!");
+        window.setVisible(true);
     }
-    
 }
